@@ -1,0 +1,9 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+   name: cm-demo
+data:
+   App: web
+   DBusername: sys
+   DBURL: url123
